@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Scuba Diving Incident Report in HTML</title>
+   
+</head>
+<body>
+    <form method="POST" action="https://postman-echo.com/post">
+         <div>
+                <section>
+                    <h2>Scuba diving incident report</h2>
+                    <label>Please provide name and address of the place where the incident occured?</label>
+                    <input type="text" id="incident_place" name="incident_place" />
+                </section>
+
+                <section>
+                    <h2>What is your age?</h2>
+                    <select id="your_age" name="your_age">
+                        <option value="minor">Minor(less than 18 years)</option>
+                        <option value="adult">Adult(more than 18years)</option>
+                    </select>
+                </section>
+
+                <section>
+                    <h2>What is your gender?</h2>
+                    <div>
+                        <input type="radio" id="male"  name="malefemale" value="male" /><label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female"  name="malefemale" value="female" /><label for="female">Female</label>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Tell us about near-misses, injuries, fatalities that you have witnessed or experienced?</h2>
+                    <div>
+                        <input type="checkbox" id="Whale_attack" name="Attack" value="Whake_attack" /><label for="whale_attack">Whale attack</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="Running_out_of_air" name="Short_of_air" value="Running_out_of_air"/><label for="Running_out_of_air">Running out of air</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="Infection" name="Infection"value="Infection" /><label for="Infection">Infection</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="minor_bruises" name="Bruises" value="Bruises" /><label for="minor_bruises">Minor bruises</label>
+                     </div>
+                </section>
+                 
+                <section>
+                     <input type="submit" value="Enter" />
+                </section>
+               
+         </div>
+    </form>
+</body>
+</html>
