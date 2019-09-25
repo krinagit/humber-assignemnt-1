@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Scuba Diving Incident Report in HTML</title>
-   
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
 </head>
 <body>
     <form method="POST" action="https://postman-echo.com/post">
@@ -16,7 +16,7 @@
 
                 <section>
                     <h2>What is your age?</h2>
-                    <select id="your_age" name="your_age">
+                    <select id="diver_age" name="diver_age">
                         <option value="minor">Minor(less than 18 years)</option>
                         <option value="adult">Adult(more than 18years)</option>
                     </select>
@@ -25,26 +25,35 @@
                 <section>
                     <h2>What is your gender?</h2>
                     <div>
-                        <input type="radio" id="male"  name="malefemale" value="male" /><label for="male">Male</label>
+                        <input type="radio" id="diver_gender_male"  name="malefemale" value="male" /><label for="diver_gender_male">Male</label>
                     </div>
                     <div>
-                        <input type="radio" id="female"  name="malefemale" value="female" /><label for="female">Female</label>
+                        <input type="radio" id="diver_gender_female"  name="malefemale" value="female" /><label for="diver_gender_female">Female</label>
                     </div>
+                </section>
+                <section>
+                    <h2>How experienced was the diver?</h2>
+                   
+                        <select id="diver_experienced" name="diver_experienced">
+                            <option value="student">Student</option>
+                            <option value="instructor">Instructor</option>
+                            <option value="recreationalist">Recreationalist</option>
+                        </select>
                 </section>
 
                 <section>
                     <h2>Tell us about near-misses, injuries, fatalities that you have witnessed or experienced?</h2>
                     <div>
-                        <input type="checkbox" id="Whale_attack" name="Attack" value="Whake_attack" /><label for="whale_attack">Whale attack</label>
+                        <input type="checkbox" id="incident_type_Whale_attack" name="Attack" value="Whake_attack" /><label for="incident_type_Whale_attack">Whale attack</label>
                     </div>
                     <div>
-                        <input type="checkbox"  id="Running_out_of_air" name="Short_of_air" value="Running_out_of_air"/><label for="Running_out_of_air">Running out of air</label>
+                        <input type="checkbox"  id="incident_type_Running_out_of_air" name="Short_of_air" value="Running_out_of_air"/><label for="incident_type_Running_out_of_air">Running out of air</label>
                     </div>
                     <div>
-                        <input type="checkbox"  id="Infection" name="Infection"value="Infection" /><label for="Infection">Infection</label>
+                        <input type="checkbox"  id="incident_type_Infection" name="Infection"value="Infection" /><label for="incident_type_Infection">Infection</label>
                     </div>
                     <div>
-                        <input type="checkbox"  id="minor_bruises" name="Bruises" value="Bruises" /><label for="minor_bruises">Minor bruises</label>
+                        <input type="checkbox"  id="incident_type_minor_bruises" name="Bruises" value="Bruises" /><label for="incident_type_minor_bruises">Minor bruises</label>
                      </div>
                 </section>
                  

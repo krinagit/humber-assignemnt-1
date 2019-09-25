@@ -31,13 +31,13 @@ namespace N01331772_assignment1A {
         protected global::System.Web.UI.WebControls.TextBox aspx_incident_place;
         
         /// <summary>
-        /// aspx_your_age control.
+        /// aspx_diver_age control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_your_age;
+        protected global::System.Web.UI.WebControls.DropDownList aspx_diver_age;
         
         /// <summary>
         /// aspx_gender control.
@@ -49,12 +49,21 @@ namespace N01331772_assignment1A {
         protected global::System.Web.UI.WebControls.RadioButtonList aspx_gender;
         
         /// <summary>
-        /// aspx_incident_factors control.
+        /// aspx_diver_experienced control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_incident_factors;
+        protected global::System.Web.UI.WebControls.DropDownList aspx_diver_experienced;
+        
+        /// <summary>
+        /// incident_type_factors control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList incident_type_factors;
     }
 }
